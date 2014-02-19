@@ -4,8 +4,8 @@
   .categories-widget-label= t('.label')
   
   .action-links
-    .edit= link_to t('.edit'), '#', :class => 'btn btn-mini'
-    .done= link_to t('.done'), '#', :class => 'btn btn-mini'
+    .edit= link_to t('.edit'), '#', :class => 'btn btn-default btn-mini'
+    .done= link_to t('.done'), '#', :class => 'btn btn-default btn-mini'
   
   .categories.read
     .category.all{:class => params[:category].blank?? 'active' : nil}
@@ -21,4 +21,4 @@
       = form.hidden_field :categorized_type, :value => type
       .input-append
         = form.text_field :label, :placeholder => t('.add_placeholder')
-        %button.btn.btn-mini= t('.add')
+        %button.btn.btn-default.btn-mini= t('.add')

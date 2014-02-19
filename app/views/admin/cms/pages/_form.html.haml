@@ -35,5 +35,5 @@
 = render 'admin/cms/partials/page_form_after', :object => form
 
 .form-actions
-  = form.submit t('.preview'), :name => 'preview', :id => nil, :class => 'btn'
+  = form.submit t('.preview'), :name => 'preview', :id => nil, :class => 'btn btn-default'
   = form.submit t(@page.new_record?? '.create' : '.update'), :class => 'btn btn-primary'

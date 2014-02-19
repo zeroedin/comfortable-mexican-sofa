@@ -8,7 +8,7 @@
 #= require codemirror/modes/markdown
 #= require codemirror/modes/xml
 #= require codemirror/addons/edit/closetag
-#= require comfortable_mexican_sofa/lib/bootstrap
+#= require comfortable_mexican_sofa/lib/bootstrap-3.1.1
 #= require comfortable_mexican_sofa/lib/wysihtml5
 #= require comfortable_mexican_sofa/lib/bootstrap-wysihtml5
 #= require comfortable_mexican_sofa/lib/bootstrap-datetimepicker
